@@ -1,11 +1,96 @@
 import React from 'react';
 import './Home.css';
 
-function Home(){
+
+
+function Home() {
     return (
         <>
-            <h1 className="titulo">Home</h1>
-            <img src="https://miro.medium.com/v2/resize:fit:1358/1*5c8Khoy8ON4CwVqKKn6twA.png" alt="Imagem Tela Inicial" className="img"/>
+
+            <div>
+                <div className='grid grid-cols-12 gap-2 m-4'>
+
+                    <div className='col-span-6 bg-green-300'>
+                        container 1
+                    </div>
+
+                    <div className='col-span-6 bg-yellow-200'>
+                        container 2
+                    </div>
+
+                </div>
+                <div className='grid grid-cols-12 gap-2 m-4'>
+
+                    <div className='col-span-8 bg-green-300'>
+                        container 1
+                    </div>
+
+                    <div className='col-span-4 bg-yellow-200'>
+                        container 2
+                    </div>
+
+                </div>
+
+                <div className='grid grid-cols-12 gap-2 m-4'>
+
+                    <div className='col-span-4 bg-green-300'>
+                        container 1
+                    </div>
+
+                    <div className='col-span-4 bg-yellow-200'>
+                        container 2
+                    </div>
+
+                    <div className='col-span-4 bg-red-500'>
+                        container 3
+                    </div>
+
+                </div>
+
+                <div className='grid grid-cols-12 gap-2 m-4'>
+
+                    <div className='col-span-3 bg-green-300'>
+                        container 1
+                    </div>
+
+                    <div className='col-span-3 bg-yellow-200'>
+                        container 2
+                    </div>
+
+                    <div className='col-span-3 bg-red-500'>
+                        container 3
+                    </div>
+
+                    <div className='col-span-3 bg-blue-500'>
+                        container 4
+                    </div>
+
+                </div>
+
+                <div className='grid grid-cols-12 gap-2 m-4'>
+
+                    <div className='col-span-4 bg-green-300'>
+                        container 1
+                    </div>
+
+                    <div className='col-span-4 bg-yellow-200'>
+                        container 2
+                    </div>
+
+                    <div className='col-span-2 bg-red-500'>
+                        container 3
+                    </div>
+
+                    <div className='col-span-2 bg-blue-500'>
+                        container 4
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
         </>
     );
 }
